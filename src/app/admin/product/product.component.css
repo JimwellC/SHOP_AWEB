@@ -1,39 +1,68 @@
-*{
+* {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.background{
-background-color: #322826;
+
+.background {
+  background-color: #f8f5f2; /* Light background color */
 }
+
 .header, .tagline {
   text-align: center;
-  color: aliceblue;
+  color: #6f4e37; /* Coffee color */
 }
-.tagline{
+
+.tagline {
   padding-bottom: 1em;
 }
-.header{
+
+.header {
   padding-top: 1em;
   font-size: 4em;
 }
-.tagline{
+
+.tagline {
   font-size: 1.9em;
 }
-.spec{
+
+.spec {
   font-size: 1.9em;
-  color:aliceblue;
+  color: #6f4e37; /* Coffee color */
 }
-.special{
+
+.special {
   padding-top: 1em;
   padding-bottom: 1em;
   text-align: center;
-  color: aliceblue;
+  color: #6f4e37; /* Coffee color */
 }
-.card-body{
-  border-radius: 25px;
+
+.card-body {
+  border-radius: 10px;
+  background-color: #fff; /* White background for cards */
+  padding: 1em;
 }
-.card-title, .card-text{
+
+.card-title, .card-text {
   text-align: center;
+  color: #333; /* Darker text color */
 }
-.card-title{
-  font-size: 2em;
+
+.card-title {
+  font-size: 1.5em;
+}
+
+.card-text small {
+  color: #999; /* Muted text color */
+}
+
+.btn-coffee {
+  background-color: #6f4e37; /* Coffee color */
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+}
+
+.btn-coffee:hover {
+  background-color: #563d2d; /* Darker coffee color on hover */
 }

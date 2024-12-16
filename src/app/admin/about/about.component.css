@@ -35,21 +35,63 @@
           color: #f1c40f;
           margin-top: 1.5rem;
         }
+        h2 {
+          font-size: 1.75rem;
+          color: #f1c40f;
+          margin-top: 1.5rem;
+        }
         p {
           font-size: 1rem;
-          color: #ddd;
+          color: black;
           line-height: 1.5;
         }
         ul {
-          list-style: none;
-          padding: 0;
-
           li {
             margin-bottom: 0.75rem;
-            color: #ddd;
+            color: black;
 
             strong {
               color: #f39c12;
             }
           }
         }}
+.buy-now {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.btn-coffee {
+  background-color: #6f4e37; /* Example coffee color */
+  color: white;
+}
+
+.btn-coffee:hover {
+  background-color: #563d2d; /* Darker coffee color on hover */
+}
+
+.our-story, .our-values {
+  background-color: #FFFDD0; /* Light background color */
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.our-story h2, .our-values h2 {
+  color: #6f4e37; /* Coffee color */
+}
+
+.our-values ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: justify; /* Ensure list items are justified */
+  max-width: 500px; /* Optional: limit max width */
+  margin: 0 auto; /
+}
+
+.our-values li {
+  margin-bottom: 10px;
+}
+
+.our-values li strong {
+  color: #6f4e37; /* Coffee color */
+}

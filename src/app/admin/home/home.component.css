@@ -5,29 +5,46 @@
   height: 100vh;
   color: white;
 }
+
+.hero-banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  z-index: 1;
+}
+
 .hero-banner .hero-content {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  z-index: 2; /* Ensure content is above the overlay */
 }
+
 .hero-banner h1 {
   font-size: 3rem;
   font-weight: bold;
 }
+
 .hero-banner p {
   font-size: 1.25rem;
   margin-bottom: 20px;
 }
+
 .hero-banner .btn-primary {
   padding: 15px 30px;
   font-size: 1rem;
   text-transform: uppercase;
 }
+
 .background {
-background-color: #5C4033;
-color: white;
+  background-color: #5C4033;
+  color: white;
 }
 
 section {

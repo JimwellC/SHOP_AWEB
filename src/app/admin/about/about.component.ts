@@ -22,9 +22,4 @@ export class AboutComponent {
     { title: 'Customer Service', description: 'Our customers are our top priority, and we strive to provide exceptional service.' },
     { title: 'Innovation', description: 'We are always looking for new ways to improve and innovate.' }
   ];
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
 }
