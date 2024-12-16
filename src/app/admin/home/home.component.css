@@ -1,0 +1,35 @@
+.hero-banner {
+  position: relative;
+  background-image: url('/images-home/home page.jpg');
+  background-position: center;
+  height: 100vh;
+  color: white;
+}
+.hero-banner .hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.hero-banner h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.hero-banner p {
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+}
+.hero-banner .btn-primary {
+  padding: 15px 30px;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.background {
+background-color: #5C4033;
+color: white;
+}
+
+section {
+  padding: 100px;
+}

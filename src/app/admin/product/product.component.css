@@ -1,0 +1,39 @@
+*{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.background{
+background-color: #322826;
+}
+.header, .tagline {
+  text-align: center;
+  color: aliceblue;
+}
+.tagline{
+  padding-bottom: 1em;
+}
+.header{
+  padding-top: 1em;
+  font-size: 4em;
+}
+.tagline{
+  font-size: 1.9em;
+}
+.spec{
+  font-size: 1.9em;
+  color:aliceblue;
+}
+.special{
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+  color: aliceblue;
+}
+.card-body{
+  border-radius: 25px;
+}
+.card-title, .card-text{
+  text-align: center;
+}
+.card-title{
+  font-size: 2em;
+}
