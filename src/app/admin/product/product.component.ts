@@ -1,33 +1,72 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-product',
   standalone: true,
-  imports: [],
+  imports: [CommonModule, FormsModule],
   templateUrl: './product.component.html',
   styleUrl: './product.component.css'
 })
 export class ProductComponent {
-  image1='../prod_images/americano.png';
-  image2='../prod_images/caramel.png';
-  image3='../prod_images/mocha.png';
-  image4='../prod_images/seasalt.png';
-  image5='../prod_images/macchiato.png';
-  image6='../prod_images/matcha.png';
-  food1='../prod_images/paty.png';
-  food2='../prod_images/kelp.png';
-  food3='../prod_images/chum.png';
-  food4='../prod_images/pretpat.png';
-  food5='../prod_images/balone.png';
-  food6='../prod_images/mealset.png';
-  spec1='../prod_images/melon.png';
-  spec2='../prod_images/dew.png';
-  spec3='../prod_images/pizza.png';
+  products = [
+    {
+      image: './prod_images/americano.png',
+      title: 'Iced Americano',
+      description: 'A classic',
+      price: 'P100'
+    },
+    {
+      image: './prod_images/caramel.png',
+      title: 'Caramel Macchiato',
+      description: 'Diabetes in a cup.',
+      price: 'P100'
+    },
+    {
+      image: './prod_images/mocha.png',
+      title: 'Mocha Latte',
+      description: 'WOW',
+      price: 'P100'
+    },
+    {
+      image: './prod_images/seasalt.png',
+      title: 'SeaSalt Latte',
+      description: 'Type 2 Diabetes',
+      price: 'P100'
+    },
+    {
+      image: './prod_images/macchiato.png',
+      title: 'Machiatto Latte',
+      description: 'A drink',
+      price: 'P100'
+    },
+    {
+      image: './prod_images/matcha.png',
+      title: 'Matcha Latte',
+      description: 'Green Drink',
+      price: 'P120'
+    }
+  ];
 
-
-
-
-  wi = 700;
-  hi = 500;
-  alt = 'Photo';
+  specials = [
+    {
+      image: './prod_images/melon.png',
+      title: 'Melon infused Espresso',
+      description: 'Constipation.',
+      price: 'P100'
+    },
+    {
+      image: './prod_images/dew.png',
+      title: 'Mountain Dew Latte',
+      description: 'Acid Level 1000.',
+      price: 'P100'
+    },
+    {
+      image: './prod_images/pizza.png',
+      title: 'Pizza Patty',
+      description: 'A Kidney Problem.',
+      price: 'P500'
+    }
+  ];
 }
