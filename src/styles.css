@@ -17,3 +17,10 @@ footer {
   position: relative;
   bottom: 0;
 }
+
+.background {
+  background-image: url('https://static.vecteezy.com/system/resources/previews/011/332/525/non_2x/hand-drawn-coffee-concept-background-free-vector.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}

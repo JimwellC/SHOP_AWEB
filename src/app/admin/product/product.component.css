@@ -8,7 +8,7 @@
 
 .header, .tagline {
   text-align: center;
-  color: #6f4e37; /* Coffee color */
+  color: #fff; /* Coffee color */
 }
 
 .tagline {
@@ -26,19 +26,19 @@
 
 .spec {
   font-size: 1.9em;
-  color: #6f4e37; /* Coffee color */
+  color: #fff; /* Coffee color */
 }
 
 .special {
   padding-top: 1em;
   padding-bottom: 1em;
   text-align: center;
-  color: #6f4e37; /* Coffee color */
+  color: #fff; /* Coffee color */
 }
 
 .card-body {
   border-radius: 10px;
-  background-color: #fff; /* White background for cards */
+  background-color: #FFFDD0; /* White background for cards */
   padding: 1em;
 }
 
